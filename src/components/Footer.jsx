@@ -5,8 +5,8 @@ const Footer = () => {
     <footer className=" text-white py-6">
       <div className="container mx-auto text-center">
         <p>
-          &copy; {new Date().getFullYear()} Construction Co. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} L.V. Ledesma Construction Inc. All
+          rights reserved.
         </p>
         <div className="mt-4">
           <a href="#home" className="text-gray-400 hover:text-white mx-2">
