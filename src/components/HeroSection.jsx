@@ -1,11 +1,18 @@
 import React from "react";
+// Import the image from assets folder
+import heroImage from "../assets/nobg.png"; // Adjust the path to where your image is located
 
 const HeroSection = () => {
   return (
     <section
       id="home"
       className="h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('/image.png')" }} // Ensure the image is in the 'public' folder
+      style={{
+        backgroundImage: `url(${heroImage})`, // Using the imported image
+        backgroundPosition: "center 100%", // Lowering the image
+        backgroundSize: "100%", // Making the image smaller
+        backgroundRepeat: "no-repeat", // Preventing the image from repeating
+      }}
     >
       <div className="h-full flex justify-center items-center">
         <div className="text-center text-white">
